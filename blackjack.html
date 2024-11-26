@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Black Jack</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://rsms.me/">
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+  </head>
+  <body>
+
+    <h1>Black Jack</h1>
+
+    <button id="start">Start</button>
+    <button id="reset">Clear</button>
+  </br>
+  <h3>Wallet:</h3>
+  <h3 id="wallet">$100</h3>
+  
+
+  <h3>Input Bet Below</h3>
+    <input type="number" placeholder="Bet" id="input">
+
+    <div class="container" id="dealerContainer">
+        <h2>Dealer's Hand</h2>
+        <div id="dealerHand">
+
+        </div>
+
+    </div>
+
+    <div class="container" id="playerContainer">
+        <h2>Player's Hand</h2>
+
+        <button id="hit">Hit</button>
+        <button id="stand">Stand</button>
+
+        <div id="playerHand">
+
+        </div>
+
+    </div>
+
+    <script type='module' src="script.js"></script>
+    <script type='module' src="createCards.js"></script>
+  </body>
+</html>
